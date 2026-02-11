@@ -15,4 +15,4 @@ def add(a, b):
         The sum of a and b
     """
     # DELIBERATE BUG for USJP: This subtracts instead of adds!
-    return a - b
+    return a + b
