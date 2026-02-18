@@ -5,7 +5,7 @@ Teach students about **Cyclomatic Complexity** as a code quality metric and how 
 
 ---
 
-## 📚 What is Cyclomatic Complexity?
+## 📚 Whats Cyclomatic Complexity?
 
 **Definition**: A software metric that measures the number of independent paths through a program's source code.
 
