@@ -39,10 +39,10 @@ jobs:
       - name: Check Cyclomatic Complexity
         run: |
           echo "Running complexity check with max-complexity=5..."
-          flake8 --max-complexity=5 --statistics messy_logic.py
+          flake8 --max-complexity=5 --statistics messy_logic_BACKUP.py
       
       # Step 6: Run full flake8 check (optional - shows other issues too)
       - name: Run Full Code Quality Check
         run: |
           echo "Running full flake8 analysis..."
-          flake8 --max-line-length=100 --statistics messy_logic.py || true
+          flake8 --max-line-length=100 --statistics messy_logic_BACKUP.py || true
